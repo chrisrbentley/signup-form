@@ -13,6 +13,10 @@ fieldset {
     flex-wrap: wrap;
 }
 
+.top-text {
+    margin-left: 118px;
+}
+
 .fn {
     display: flex;
     flex-direction: column;
@@ -101,6 +105,8 @@ fieldset {
     margin: auto;
     position: absolute;
     margin-left: 115px;
+    margin-top: 10px;
+    font-size: 20px;
     font-weight: bold;
 }
 
