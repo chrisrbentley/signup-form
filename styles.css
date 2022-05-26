@@ -27,7 +27,11 @@ fieldset {
     width: 40vw;
 }
 
-a {
+.li-link {
+    color: #216123;
+}
+
+.c-link {
     color: white;
 }
 
