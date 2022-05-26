@@ -8,35 +8,59 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
-        <img src="images-fonts/annie-spratt-yBiwm6243kI-unsplash.jpeg" alt="">
+    <div class="left">
+        <img id="background-image" src="images-fonts/annie-spratt-yBiwm6243kI-unsplash.jpeg" alt="Image of a corner of a room, showing two desks next to windows with multiple plants surrounding.">
+        <div class="strip">
+            <img src="images-fonts/odin-lined.png" alt="">
+            <div class="strip-text">ODIN</div>
+        </div>
     </div>
-    <div>
-        <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</h3>
-        <h3>You <span style="font-style: italic;">know</span> you want to</h3>
-    </div>
-    <div>
-        <h3>Let's do this!</h3>
-        <form action="" method="post">
-            <fieldset>
-                <label for="firstName">First Name</label>
-                <input type="text" name="first_name" id="firstName">
-                <label for="lastName">Last Name</label>
-                <input type="text" name="last_name" id="lastName">
-                <label for="user_email">Email</label>
-                <input type="email" name="email" id="user_email">
-                <label for="phone_number">Phone Number</label>
-                <input type="tel" name="phone_number" id="phone_number">
-                <label for="user_password">Password</label>
-                <input type="password" name="password" id="user_password">
-                <label for="confirm_user_password">Confirm Password</label>
-                <input type="password" name="confirm_password" id="confirm_user_password">
-            </fieldset>
-        </form>
-    </div>
-    <div>
-        <button type="submit">Create Account</button>
-        <p>Already have an account? <a href="">Log in</a></p>
+    <div class="right">
+        <div class="top">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+            <p>You <span style="font-style: italic;">know</span> you want to.</p>
+        </div>
+        <div class="middle">
+            <p class="middle-text">Let's do this!</p>
+            <form action="" method="post">
+                <fieldset>
+                    <div class="name-sec">
+                        <div class="fn">
+                            <label for="firstName">First Name</label>
+                            <input type="text" name="first_name" id="firstName">
+                        </div>
+                        <div class="ln">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="last_name" id="lastName">
+                        </div>
+                    </div>
+                    <div class="info-sec">
+                        <div class="em">
+                            <label for="user_email">Email</label>
+                            <input type="email" name="email" id="user_email">
+                        </div>
+                        <div class="ph">
+                            <label for="phone_number">Phone Number</label>
+                            <input type="tel" name="phone_number" id="phone_number">
+                        </div>
+                    </div>
+                    <div class="pw-sec">
+                        <div class="up">
+                            <label for="user_password">Password</label>
+                            <input type="password" name="password" id="user_password">
+                        </div>
+                        <div class="cp">
+                            <label for="confirm_user_password">Confirm Password</label>
+                            <input type="password" name="confirm_password" id="confirm_user_password">
+                        </div>
+                    </div>  
+                </fieldset>
+            </form>
+        </div>
+        <div class="bottom">
+            <button id="submit-button" type="submit">Create Account</button>
+            <p id="bottom-text">Already have an account? <a href="">Log in</a></p>
+        </div>
     </div>
 </body>
 </html>

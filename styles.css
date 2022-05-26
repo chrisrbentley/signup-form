@@ -1,3 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    font-family: Poppins;
+}
+
 fieldset {
     border: none;
+    height: 180px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fn {
+    display: flex;
+    flex-direction: column;
+}
+
+.ln {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-sec {
+    display: flex;
+    flex-direction: row;
+    width: 820px;
+    justify-content: space-evenly;
+}
+
+.info-sec {
+    display: flex;
+    flex-direction: row;
+    width: 820px;
+    justify-content: space-evenly;
+}
+
+.em, .ph {
+    display: flex;
+    flex-direction: column;
+}
+
+.pw-sec {
+    display: flex;
+    flex-direction: row;
+    width: 820px;
+    justify-content: space-evenly;
+}
+
+.up, .cp {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 40vw;
+}
+
+.right {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 60vw;
+    right: 0;
+}
+
+.top {
+    font-size: 20px;
+    background-color: #EFEDEB;
+    height: 35vh;
+    position: fixed;
+    top: 0px;
+    text-align: left;
+}
+
+
+.top p {
+    margin-top: auto;
+    margin-top: 30px;
+}
+
+.middle {
+    background-color: white;
+    position: relative;
+    top:270px;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.middle-text {
+    margin: auto;
+    position: absolute;
+    margin-left: 115px;
+    font-weight: bold;
+}
+
+input, label {
+    display: block;
+}
+
+input {
+    height: 20px;
+    width: 250px;
+}
+
+
+.bottom {
+    background-color: #EFEDEB;
+    position: relative;
+    top: 250px;
+    height: 32vh;
+}
+
+#submit-button {
+    background-color: #216123;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#bottom-text {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+.left {
+    position: relative;
+}
+
+.strip {
+    position: fixed;
+    background-color: yellow;
+    width: 40vw;
+    height: 100px;
+    left: 0;
+    margin-top: 170px;
+    background-color: #383838;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+}
+
+.strip-text {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'norse-bold';
+    src: url('/images-fonts/Norse-Bold.otf');
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
 }
