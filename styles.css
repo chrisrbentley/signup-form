@@ -17,6 +17,20 @@ fieldset {
     margin-left: 118px;
 }
 
+.creds {
+    position: fixed;
+    color: wheat;
+    font-size: 12px;
+    bottom: 5px;
+    text-align: center;
+    left: 0;
+    width: 40vw;
+}
+
+a {
+    color: white;
+}
+
 .fn {
     display: flex;
     flex-direction: column;
